@@ -1,0 +1,330 @@
+/* Extra small devices - xs (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+
+/* Navigation Styles Starts */
+
+	#nav .navbar-collapse {
+		background-color: #090909;
+		border: 1px solid #333;	
+	} 
+	#nav.fixednav .navbar-collapse {
+		margin-top: 10px;		
+		border-width: 1px 0 0 0;
+	}	
+		#nav .nav-item > a {
+			padding: 10px;
+		}
+
+/* Hero Section Styles Starts */
+
+	.hero-section {
+		padding-top: 100px;
+		padding-bottom: 60px;
+		font-size: 16px;
+	}
+		.hero-section h1 {
+			font-size: 40px;
+		}	
+
+/* About Section Styles Starts */
+
+	.progress-list li h4 {
+		font-size: 22px;
+	}
+	.progress-list li .progress {
+		height: 25px;
+	}
+		.progress-list li .progress-bar h5 {
+			padding-left: 0;
+			font-size: 16px;
+			line-height: 25px;
+		}
+
+	.about-stats {
+		margin-top: 20px;
+	}
+		.about-stats li .fa {
+			margin-right: 0;
+			font-size: 36px;
+		}
+		.about-stats li h1 {
+			font-size: 42px;
+		}		
+
+/* Section Area Styles Starts */
+
+	.section-area-title::before {
+		width: 230px;
+	}	
+
+/* Projects Grid Styles Starts */
+
+	.project-grid-item {
+		min-height: 174px;
+		height: auto !important;
+		height: 174px; 
+	}	
+		.project-grid-item .hover-content .overlay ul {
+			margin-top: 40px;
+		}
+		.project-grid-item .hover-content .overlay h5 {
+			margin-top: 15px;
+		}	
+
+/* Generic Styles Starts */
+
+	.d-xs-block {
+		display: block !important;
+	}
+	.d-xs-none {
+		display: none;
+	}
+	.img-center-xs {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.text-xs-left   { text-align: left;   }
+	.text-xs-center { text-align: center; }
+	.text-xs-right  { text-align: right;  }		
+
+}
+
+/* Small devices - sm (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/* Navigation Styles Starts */
+
+	#nav .navbar-collapse {
+		background-color: #090909;
+		border: 1px solid #333;	
+	} 
+	#nav.fixednav .navbar-collapse {
+		margin-top: 10px;		
+		border-width: 1px 0 0 0;
+	}	
+		#nav .nav-item > a {
+			padding: 12px;
+		}	
+
+/* Hero Section Styles Starts */
+
+	.hero-section {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+		.hero-section h1 {
+			font-size: 48px;
+		}
+
+/* Navigation Styles Starts */
+
+	#nav .navbar-nav > li > a {
+		padding-top: 5px;
+	}	
+		#nav .navbar-collapse {
+			margin-top: 10px;
+			padding-top: 15px;
+			padding-bottom: 5px;
+		}	
+
+/* About Section Styles Starts */
+
+	.progress-list li h4 {
+		font-size: 22px;
+	}
+	.progress-list li .progress {
+		height: 25px;
+	}
+		.progress-list li .progress-bar h5 {
+			padding-left: 0;
+			font-size: 16px;
+			line-height: 25px;
+		}
+
+	.about-stats {
+		margin-top: 20px;
+	}
+		.about-stats li .fa {
+			margin-right: 0;
+			font-size: 36px;
+		}
+		.about-stats li h1 {
+			font-size: 42px;
+		}	
+
+/* Projects Grid Styles Starts */
+
+	.project-grid-item {
+		min-height: 233px;
+		height: auto !important;
+		height: 233px;  
+	}
+		.project-grid-item .hover-content .overlay ul {
+			margin-top: 65px;
+		}	
+		.project-grid-item .hover-content .overlay h5 {
+			margin-top: 20px;
+		}		
+
+/* Testimonials Section Styles Starts */
+
+	.testimonial-fa {
+		margin-top: 10px;
+		font-size: 30px;
+	}
+	.testimonials-wrap {
+		margin-top: 10px;
+	}	
+
+/* Generic Styles Starts */
+
+	.img-center-sm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Medium devices - md (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* Navigation Styles Starts */
+
+	#nav .navbar-collapse {
+		background-color: #090909;
+		border: 1px solid #333;	
+	} 
+	#nav.fixednav .navbar-collapse {
+		margin-top: 10px;		
+		border-width: 1px 0 0 0;
+	}	
+		#nav .nav-item > a {
+			padding: 14px;
+		}	
+	
+/* Hero Section Styles Starts */
+
+	.hero-section {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+		.hero-section h1 + h1 {
+			margin-bottom: 35px;
+		}
+		.hero-section .btn {
+			margin-top: 25px;
+			padding: 14px 40px;
+		}	
+
+/* Navigation Styles Starts */
+
+	#nav .navbar-nav > li > a {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 17px;
+	}
+
+/* About Section Styles Starts */
+
+	.about-stats li .fa {
+		margin-right: 20px;
+		font-size: 62px;
+	}
+	.about-stats li h1 {
+		font-size: 50px;
+	}	
+
+/* Pricing Section Starts */
+
+	.price-box .btn {
+		padding: 8px 24px;
+	}	
+	
+/* Generic Styles Starts */
+
+	.img-center-md {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Large devices - lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+/* Hero Section Styles Starts */
+
+	.hero-section {
+		padding-top: 160px;
+		padding-bottom: 100px;
+	}
+		.hero-section h1 + h1 {
+			margin-bottom: 35px;
+		}
+		.hero-section .btn {
+			margin-top: 25px;
+			padding: 14px 40px;
+		}	
+
+/* Projects Grid Styles Starts */
+
+	.project-grid-item {
+		min-height: 198px;
+		height: auto !important;
+		height: 198px; 
+	}
+		.project-grid-item .hover-content .overlay ul {
+			margin-top: 50px;
+		}	
+		.project-grid-item .hover-content .overlay h5 {
+			margin-top: 20px;
+		}	
+
+/* Testimonials Section Styles Starts */
+
+	.testimonial-quote {
+		padding-right: 50px;
+	}		
+
+/* Generic Styles Starts */
+
+	.img-center-lg {
+		margin-left: auto;
+		margin-right: auto;
+	}		
+
+}
+
+/* Extra large devices - xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Hero Section Styles Starts */
+
+	.hero-section {
+		padding-top: 260px;
+		padding-bottom: 120px;
+	}
+		.hero-section h1 + h1 {
+			margin-bottom: 35px;
+		}
+		.hero-section .btn {
+			margin-top: 25px;
+			padding: 14px 40px;
+		}	
+
+/* Projects Grid Styles Starts */
+
+	.project-grid-item {
+		min-height: 243px;
+		height: auto !important;
+		height: 243px;
+	}	
+
+/* Testimonials Section Styles Starts */
+
+	.testimonial-quote {
+		padding-right: 50px;
+	}	
+
+}
